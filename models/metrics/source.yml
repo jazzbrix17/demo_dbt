@@ -1,0 +1,17 @@
+version: 2
+sources:
+  - name: page_views_metrics
+    tables:
+      - name: page_views_metrics
+        description: "This table contains total counts of users, views and session duration."
+        columns:
+          - name: unique_visitors
+            description: "Total count of unique visitors"
+          - name: total_sessions
+            description: "Sum of sessions"
+          - name: total_page_views
+            description: "Sum of page views"
+          - name: avg_page_views_per_visitor
+            description: "Average value of page visitors."
+          - name: avg_session_duration
+            description: "Average value of session duration in the page"
